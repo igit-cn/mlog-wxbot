@@ -1,0 +1,20 @@
+MySqlUrl: username:password@tcp(localhost:3306)/wxbot_db?charset=utf8&parseTime=True&loc=Local  # 数据库链接
+ShowSql: false # 是否打印sql
+
+IgnoreGzhConfig: /data/ignore_gzh.txt  # 需要过滤的公众号可以配置到这个文件中，一行一个
+
+PublishApi: https://mlog.club/article/wxpublish
+PublishToken: token请自己定义
+
+# 阿里云oss配置
+AliyunOss:
+  Host: https://file.mlog.club/
+  Bucket: bucket-name
+  Endpoint: oss-cn-hongkong-internal.aliyuncs.com
+  AccessId: accessId
+  AccessSecret: accessSecret
+
+# baidu ai
+BaiduAi:
+  ApiKey:
+  SecretKey:
